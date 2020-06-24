@@ -63,6 +63,11 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
 const creds = require('./config');
+const app = express()
+
+app.get('/', function (req, res) {
+  res.render('index', {});
+});
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
@@ -117,7 +122,7 @@ router.post('/send', (req, res, next) => {
 
 
 
-const app = express()
+
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
