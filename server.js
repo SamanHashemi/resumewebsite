@@ -120,7 +120,7 @@ router.post('/send', (req, res, next) => {
   })
 })
 
-app.get('*', function(req, res){
+router.get('*', function(req, res){
   res.status(404).send('what???');
 });
 
@@ -129,5 +129,5 @@ app.get('*', function(req, res){
 
 app.use(cors())
 app.use(express.json())
-app.use('/send', router)
+app.use('/', router)
 app.listen(process.env.PORT || 5000)
