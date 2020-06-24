@@ -65,6 +65,10 @@ var cors = require('cors');
 const creds = require('./config');
 const app = express()
 
+router.get('/', function(req, res){
+  console.log("Something temp")
+});
+
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
     port: 587,
@@ -115,6 +119,10 @@ router.post('/send', (req, res, next) => {
     }
   })
 })
+
+app.get('*', function(req, res){
+  res.status(404).send('what???');
+});
 
 
 
