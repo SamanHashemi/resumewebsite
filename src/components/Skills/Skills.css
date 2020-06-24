@@ -1,0 +1,113 @@
+html, body { height: 100%; }
+
+:root {
+  --off-white: #fafafa;
+}
+
+.skills-background{
+    background-color: #f4f4f4;
+    background-size: cover;
+  }
+
+#skills-title{
+    font-family: 'EB Garamond', serif;
+    font-size: xx-large;
+  }
+  
+  #skills-title-mobile{
+    font-family: 'EB Garamond', serif;
+    font-size: xx-large;
+  }
+
+  .test{
+    height: 50%;
+  }
+  
+  .programming-languages{
+    display: grid; 
+    grid-template-columns: auto auto;
+    position: absolute;
+    background: blue;
+    padding: 5%;
+    top: 20%;
+    left: 5%;
+    width: 20%;
+    height: 60%;
+  }
+  
+  .rating-text{
+    left: 3%;
+    font-family: 'EB Garamond', serif;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rating-score{
+    left: 3%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .rating-container{
+    display: flex;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .skill-container{
+    width: 100%;
+    top: 10%;
+    padding-top: 10%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skill-titles{
+    font-size: 150%;
+    font-family: 'EB Garamond', serif;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #box {
+    position: absolute;
+    width: 99%;
+    height: 92%;
+    top: 3%;
+    padding: 5px;
+    border: 2px solid #D3D3D3	;
+    }
+  #box\:before, #box\:after {
+    content: "•";
+    position: absolute;
+    color: #D3D3D3	;
+    border: 2px solid #D3D3D3	;
+    line-height: 12px;
+  }
+  #box\:before {
+    left: 5px;
+  }
+  #box\:after {
+    right: 5px;
+  }
+  #box #box-inner {
+    position: relative;
+    border: 2px solid #D3D3D3	;
+    height: 100%;
+  }
+  #box #box-inner\:before, #box #box-inner\:after {
+    content: "•";
+    position: absolute;
+    color: #D3D3D3;
+    border: 2px solid #D3D3D3;
+    line-height: 12px;
+    bottom: -2px;
+  }
+  #box #box-inner\:before {
+    left: -2px;
+  }
+  #box #box-inner\:after {
+    right: -2px;
+  }

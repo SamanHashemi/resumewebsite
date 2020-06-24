@@ -1,0 +1,51 @@
+#resume {
+    position: absolute;
+    top: 0;
+    right: 2.5%;
+    width: 50px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    text-align: center;
+}
+
+#resume:hover{
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+.resume-icon{
+    padding-top: 10px;
+    padding-left: 3px;
+    opacity: 100%;
+    color: #858585;
+    z-index: 11;
+}
+
+.resume-download-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgrey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    right: 105%;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+}
+
+.resume:hover .resume-download-text{
+    visibility: visible;
+}
+
+#icon:hover{
+    color: #858585;
+}

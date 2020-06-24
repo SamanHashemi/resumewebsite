@@ -1,0 +1,316 @@
+html, body { height: 100%; }
+
+:root {
+  --off-white: #fafafa;
+}
+
+.about-background{
+    background-color: #f4f4f4;
+    background-size: cover;
+  }
+
+.about-text{
+    position: absolute; 
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    will-change: transform; 
+    width: 100%; 
+    height: 666px; 
+    transform: translate3d(0px, 0px, 0px); 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #computer-about-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+  }
+  
+  #tablet-about-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mobile-about-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    line-height: normal;
+    align-items: center;
+    bottom: -18%;
+  }
+  
+  #about-title-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  
+  #been-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    left: -5%;
+  }
+  
+  #am-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  #going-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    left: 5%;
+  }
+  
+  #been-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+    text-align: justify;
+  }
+  
+  #am-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+    text-align: justify;
+  }
+  
+  #going-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+    text-align: justify;
+  }
+  
+  #tablet-been-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    left: -5%;
+  }
+  
+  #tablet-am-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  #tablet-going-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: x-large;
+    left: 5%;
+  }
+  
+  #tablet-been-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: medium;
+    text-align: justify;
+  }
+  
+  #tablet-am-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: medium;
+    text-align: justify;
+  }
+  
+  #tablet-going-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: medium;
+    text-align: justify;
+  }
+  
+  #mobile-been-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+    top: -5%;
+  }
+  
+  #mobile-am-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+    text-align: center;
+  }
+  
+  #mobile-going-title{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: large;
+  }
+  
+  #mobile-been-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: small;
+    text-align: justify;
+  }
+  
+  #mobile-am-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: small;
+    text-align: justify;
+  }
+  
+  #mobile-going-text{
+    font-family: 'EB Garamond Bold', serif;
+    font-size: small;
+    text-align: justify;
+  }
+  
+  .about-was-container{
+    top: 25%;
+    left: 5%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-was-title{
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    position: absolute;
+    display: flex; 
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .about-was-text{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .about-am-container{
+    top: 25%;
+    left: 38%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-am-title{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+  }
+  
+  .about-am-text{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .about-going-container{
+    top: 25%;
+    left: 70%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-going-title{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    display: flex; 
+    top: 0%;
+    right: 0%;
+  }
+  
+  .about-going-text{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .about-going{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    display: flex; 
+    top: 20%;
+    left: 70%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #b78846;
+ }
+  .box:before, .box:after {
+    content: "•";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    color: #b78846;
+    border: 2px solid #b78846;
+    line-height: 12px;
+    top: 5px;
+    text-align: center;
+ }
+  .box:before {
+    left: 5px;
+ }
+  .box:after {
+    right: 5px;
+ }
+  .box .box-inner {
+    position: relative;
+    border: 2px solid #b78846;
+    padding: 40px;
+ }
+  .box .box-inner:before, .box .box-inner:after {
+    content: "•";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    color: #b78846;
+    border: 2px solid #b78846;
+    line-height: 12px;
+    bottom: -2px;
+    text-align: center;
+ }
+  .box .box-inner:before {
+    left: -2px;
+ }
+  .box .box-inner:after {
+    right: -2px;
+ }

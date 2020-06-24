@@ -1,0 +1,208 @@
+html, body { height: 100%; }
+
+:root {
+  --off-white: #fafafa;
+}
+
+.projects-background{ 
+    background-color: #f4f4f4;
+    background-size: cover;
+  }
+
+#projects-title{
+    font-family: 'EB Garamond', serif;
+    font-size: xx-large;
+    top: 0%;
+    left: -1%;
+  }
+
+  .lucy-container{
+    top: 25%;
+    left: 5%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lucy-title{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 150%;
+    top: 10%;
+  }
+  
+  .lucy-img{
+    background: url(../../img/test4.jpg) no-repeat;
+    
+    position: absolute;
+    display: flex; 
+    
+    background-size: 100% 100%;
+    width: 70%; 
+    height: 50%;
+  
+    top: 25%;
+  }
+  
+  .lucy-text{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    top: 75%;
+  }
+  
+  .roomies-container{
+    top: 25%;
+    left: 38%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .roomies-title{
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 150%;
+    top: 10%;
+  }
+  
+  .roomies-img{
+    background: url(../../img/test4.jpg) no-repeat;
+    
+    position: absolute;
+    display: flex; 
+    
+    background-size: 100% 100%;
+    width: 70%; 
+    height: 50%;
+  
+    top: 25%;
+  }
+  
+  .roomies-text{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  
+    top: 75%;
+  }
+  
+  .crawly-title{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 150%;
+    top: 10%;
+  }
+  
+  .crawly-container{
+    top: 25%;
+    left: 70%;
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  #lucy-img{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #roomies-img{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .crawly-img{
+    background: url(../../img/test4.jpg) no-repeat;
+    
+    position: absolute;
+    display: flex; 
+    
+    background-size: 100% 100%;
+    width: 70%; 
+    height: 50%;
+  
+    top: 25%;
+  }
+  
+  .crawly-text{
+    padding-top: 2%;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  
+    top: 75%;
+  }
+
+  .box {
+   position: absolute;
+   width: 99%;
+   height: 92%;
+   top: 53%;
+	 padding: 5px;
+	 border: 2px solid #D3D3D3	;
+  }
+ .box::before, .box::after {
+	 content: "•";
+	 position: absolute;
+	 color: #D3D3D3	;
+	 border: 2px solid #D3D3D3	;
+	 line-height: 12px;
+}
+ .box::before {
+	 left: 5px;
+}
+ .box::after {
+	 right: 5px;
+}
+ .box .box-inner {
+	 position: relative;
+   border: 2px solid #D3D3D3	;
+   height: 100%;
+}
+ .box .box-inner::before, .box .box-inner::after {
+	 content: "•";
+	 position: absolute;
+	 color: #D3D3D3;
+	 border: 2px solid #D3D3D3;
+	 line-height: 12px;
+	 bottom: -2px;
+}
+ .box .box-inner::before {
+	 left: -2px;
+}
+ .box .box-inner::after {
+	 right: -2px;
+}

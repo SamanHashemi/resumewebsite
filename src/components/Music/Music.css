@@ -1,0 +1,130 @@
+html, body { height: 100%;}
+
+:root {
+  --off-white: #fafafa;
+}
+
+.music-background{
+    background-color: #f4f4f4;
+    background-size: cover;
+  }
+
+.music-title{
+    
+    position: absolute;
+    text-align: center;
+    display: flex; 
+    top: 10%;
+    left: 41%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+
+#my-music-title{
+  font-family: 'EB Garamond', serif;
+  font-size: x-large;
+}
+
+.malibu-cover{
+  height: 180px;
+  width: 180px;
+}
+
+.malibu-cover:hover{
+  transition: .5s;
+  transform: scale(1.03);
+}
+
+#favorite-albums-title{
+  font-family: 'EB Garamond', serif;
+  font-size: x-large;
+}
+
+#music-and-art-title{
+  font-family: 'EB Garamond', serif;
+  top: 100%;
+  font-size: xx-large;
+}
+
+#favorite-artists-title{
+  font-family: 'EB Garamond', serif;
+  font-size: x-large;
+}
+
+.art-image{
+  height: 180px;
+  width: 150px;
+}
+
+.art-image:hover{
+  transition: .5s;
+  transform: scale(1.03);
+}
+
+#song1{
+  justify-content: center;
+  align-items: center;
+  width : 300px;
+}
+
+#song2{
+  width: 300px;
+}
+
+#song3{
+  width: 300px;
+}
+
+#song1-title{
+  font-size: small;
+}
+
+#song2-title{
+  font-size: small;
+}
+
+#song3-title{
+  font-size: small;
+}
+
+.box {
+  position: absolute;
+  width: 99%;
+  height: 92%;
+  top: 53%;
+  padding: 5px;
+  border: 2px solid #D3D3D3	;
+ }
+.box:before, .box:after {
+  content: "•";
+  position: absolute;
+  color: #D3D3D3	;
+  border: 2px solid #D3D3D3	;
+  line-height: 12px;
+}
+.box:before {
+  left: 5px;
+}
+.box:after {
+  right: 5px;
+}
+.box .box-inner {
+  position: relative;
+  border: 2px solid #D3D3D3	;
+  height: 100%;
+}
+.box .box-inner:before, .box .box-inner:after {
+  content: "•";
+  position: absolute;
+  color: #D3D3D3;
+  border: 2px solid #D3D3D3;
+  line-height: 12px;
+  bottom: -2px;
+}
+.box .box-inner:before {
+  left: -2px;
+}
+.box .box-inner:after {
+  right: -2px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap');
+
+body { height: 100%; overflow: hidden; }
+
+body::-webkit-scrollbar { 
+  display: none; 
+}
+
+#home-background{
+  background: url(./img/test.jpg) no-repeat center center fixed; 
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+div::-webkit-scrollbar { display: none }
+
+.home-overlay{
+  background-color: #f4f4f4;
+  color: blue;
+  opacity: 40%;
+  background-size: cover;
+}
+
+#home-overlay::webkit-scrollbar{
+  display: none;
+}
