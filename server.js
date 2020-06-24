@@ -141,6 +141,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require("nodemailer");
 const creds = require("./config.js");
 const cors = require('cors');
+const path = require('path');
 app.use(cors())
 
 
@@ -150,7 +151,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', (req, res) => {
-  res.render('/public/index.html')
+  res.render(express.static(path.resolve('./public/index.html')))
   console.log("Default get route")
 })
 
