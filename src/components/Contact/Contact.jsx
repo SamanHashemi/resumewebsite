@@ -25,43 +25,77 @@ class Contact extends Component{
 
 
 
+    // handleSubmit(e){
+    //     e.preventDefault();
+    //     const name = document.getElementById('name').value;
+    //     const email = document.getElementById('email').value;
+    //     var message = document.getElementById('message').value;
+    //     if(name === "" || email === "" || message===""){
+    //       alert("One or more fields were left empty"); 
+    //     }
+    //     else{
+    //       axios({
+    //           method: "POST", 
+    //           url:"http://localhost:3001/send", 
+    //           data: {
+    //               name: name,   
+    //               email: email,  
+    //               message: message
+    //         }
+    //       })
+    //       .then((response) => {
+    //           // document.getElementById('contact-form').reset();
+    //           this.setState({
+    //             modalTitle: "Thanks for Reaching Out!",
+    //             modalText: "Your message has been sent! Please exepect a reply to " + email + " within 48 hours.", 
+    //             open: true, 
+    //             name: "", 
+    //             email: "", 
+    //             message: ""})
+    //       })
+    //       .catch((error) =>{
+    //         console.log(error)
+    //         this.setState({
+    //           modalTitle: "Oops something went wrong",
+    //           modalText: "It looks like our servers are down. Please feel free to email saman.alex.h@gmail.com. Sorry for any inconvinence", 
+    //           open: true})
+    //       });
+    //     }
+    // }
+
     handleSubmit(e){
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        var message = document.getElementById('message').value;
-        if(name === "" || email === "" || message===""){
-          alert("One or more fields were left empty"); 
-        }
-        else{
-          axios({
-              method: "POST", 
-              url:"https://saman-website.herokuapp.com/send", 
-              data: {
-                  name: name,   
-                  email: email,  
-                  message: message
-            }
-          })
-          .then((response) => {
-              // document.getElementById('contact-form').reset();
-              this.setState({
-                modalTitle: "Thanks for Reaching Out!",
-                modalText: "Your message has been sent! Please exepect a reply to " + email + " within 48 hours.", 
-                open: true, 
-                name: "", 
-                email: "", 
-                message: ""})
-          })
-          .catch((error) =>{
-            console.log(error)
-            this.setState({
-              modalTitle: "Oops something went wrong",
-              modalText: "It looks like our servers are down. Please feel free to email saman.alex.h@gmail.com. Sorry for any inconvinence", 
-              open: true})
-          });
-        }
-    }
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      if(name === "" || email === "" || message===""){
+        alert("One or more fields were left empty");
+        return 0;
+      }
+      axios.post('http://localhost:3001/send', {
+       name: name,
+       email: email,
+       message: message
+     })
+     .then((response) => {
+       console.log(response)
+        this.setState({
+          modalTitle: "Thanks for Reaching Out!",
+          modalText: "Your message has been sent! Please exepect a reply to " + email + " within 48 hours.", 
+          open: true, 
+          name: "", 
+          email: "", 
+          message: ""})
+     })
+     .catch((error) => {
+        console.log(error)
+        this.setState({
+          modalTitle: "Oops something went wrong",
+          modalText: "It looks like our servers are down. Please feel free to email saman.alex.h@gmail.com. Sorry for any inconvinence", 
+          open: true})
+      });
+
+    };
 
     render(){
       const open = this.state.open
