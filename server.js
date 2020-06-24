@@ -149,6 +149,14 @@ app.use(bodyParser.urlencoded({
    extended: false
 }));
 
+app.get('/', (req, res) => {
+  console.log("Default get route")
+})
+
+app.post('/', (req, res) => {
+  console.log("Default post route")
+})
+
 app.post('/send', (req, res) => {
   // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
