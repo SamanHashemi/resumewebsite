@@ -128,19 +128,19 @@ class Music extends Component{
 
 
         const micah = (
-            <a  href="https://twitter.com/micahulrich" target="_blank">
+            <a  href="https://twitter.com/micahulrich" target="_blank" rel="noopener noreferrer">
                 <img className="art-image" src={micahulrich} alt="Madvillainy by Madvillan" />
             </a>
         )
 
         const laura = (
-            <a  href="https://www.instagram.com/lauracallaghanillustration/" target="_blank">
+            <a  href="https://www.instagram.com/lauracallaghanillustration/" target="_blank" rel="noopener noreferrer">
                 <img className="art-image" src={lauracallaghani} alt="The Sun's Tirade by Isaiah Rashad" />
             </a>
         )
 
         const dec = (
-            <a  href="https://www.instagram.com/dec_art.it/" target="_blank">
+            <a  href="https://www.instagram.com/dec_art.it/" target="_blank" rel="noopener noreferrer">
                 <img className="art-image" src={dec_art} alt="Aquemini by OutKast" />
             </a>
         )

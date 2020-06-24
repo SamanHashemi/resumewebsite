@@ -121,31 +121,31 @@ class Contact extends Component{
         );
 
         const twitterButton = (
-          <a  href="https://twitter.com/SamanShemi" target="_blank">
+          <a  href="https://twitter.com/SamanShemi" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted blue twitter icon"]} href="https://twitter.com/SamanShemi" target="_blank"></i>
           </a>
         );
 
         const instagramButton = (
-          <a  href="https://www.instagram.com/saman.hpour/?hl=en" target="_blank">
+          <a  href="https://www.instagram.com/saman.hpour/?hl=en" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted purple instagram icon"]} href="https://www.instagram.com/saman.hpour/?hl=en" target="_blank"></i>
           </a>
         )
 
         const linkedinButton = (
-          <a  href="https://www.linkedin.com/in/saman-hashemipour/" target="_blank">
+          <a  href="https://www.linkedin.com/in/saman-hashemipour/" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted blue linkedin icon"]} href="https://www.linkedin.com/in/saman-hashemipour/" target="_blank"></i>
           </a>
         )
 
         const spotifyButton = (
-          <a  href="https://open.spotify.com/user/12131721991?si=fP8OI_m2Rqe5XOkurfH0hw" target="_blank">
+          <a  href="https://open.spotify.com/user/12131721991?si=fP8OI_m2Rqe5XOkurfH0hw" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted green spotify icon"]} href="https://open.spotify.com/user/12131721991?si=fP8OI_m2Rqe5XOkurfH0hw" target="_blank"></i>
           </a>
         )
 
         const facebookButton = (
-          <a  href="https://www.facebook.com/saman.hashemipour" target="_blank">
+          <a  href="https://www.facebook.com/saman.hashemipour" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted blue facebook icon"]} href="https://www.facebook.com/saman.hashemipour" target="_blank"></i>
           </a>
         )

@@ -3,12 +3,7 @@ import React from 'react';
 import "./MyNavbar.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../../img/MiddleSchoolS.png";
-import { Link } from "react-scroll";
 import {Navbar, Nav} from  'react-bootstrap';
-
-
-
-const anchor = document.querySelector('#about_page')
 
 class MyNavbar extends Component{
   container = React.createRef();

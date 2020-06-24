@@ -1,4 +1,4 @@
-import React, { Component, Children } from "react";
+import React, { Component} from "react";
 // import { Parallax, ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
 
@@ -15,8 +15,6 @@ import About from './components/About/About'
 import Music from './components/Music/Music'
 import Contact from './components/Contact/Contact'
 import Home from "./components/Home/Home";
-
-const prof1 = require('./img/test.jpg');
 
 class App extends Component {
 

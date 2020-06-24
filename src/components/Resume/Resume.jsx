@@ -1,7 +1,5 @@
 import { Component } from "react";
 import React from 'react'
-import {ParallaxLayer} from 'react-spring/renderprops-addons';
-import DownloadLink from "react-download-link";
 import {Icon} from "semantic-ui-react"
 import {isBrowser} from "react-device-detect"
 import "./Resume.css";
