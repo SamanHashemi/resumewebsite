@@ -66,7 +66,7 @@ const creds = require('./config');
 const app = express()
 
 app.get('/', function (req, res) {
-  res.render('index', {});
+  console.log("test")
 });
 
 var transport = {
