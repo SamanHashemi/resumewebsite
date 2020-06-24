@@ -150,6 +150,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', (req, res) => {
+  app.render('/public/index.html')
   console.log("Default get route")
 })
 
