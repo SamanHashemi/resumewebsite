@@ -103,25 +103,25 @@ class Music extends Component{
         );
 
         const malibu_cover = (
-            <a  href="https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK?si=uVeLaqD7QBmtPRJaEf3c5g" target="_blank">
+            <a  href="https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK?si=uVeLaqD7QBmtPRJaEf3c5g" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={malibu} alt="Malibu by Anderson .Paak" />
             </a>
         );
 
         const madvillainy_cover = (
-            <a  href="https://open.spotify.com/album/01FCoGEQ3NFWF4fHJzdiax?si=RfbOkojaShW37Oc_37kqJw" target="_blank">
+            <a  href="https://open.spotify.com/album/01FCoGEQ3NFWF4fHJzdiax?si=RfbOkojaShW37Oc_37kqJw" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={madvillainy} alt="Madvillainy by Madvillan" />
             </a>
         );
 
         const aquemnini_cover = (
-            <a  href="https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28?si=KauGgtqpSU-NRDWTFn_3lQ" target="_blank">
+            <a  href="https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28?si=KauGgtqpSU-NRDWTFn_3lQ" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={aquemini} alt="Aquemini by OutKast" />
             </a>
         );
 
         const thesunstirade_cover = (
-            <a  href="https://open.spotify.com/album/6jjX8mGrsWtrpYpFhGMrg1?si=pfOVWg1ORiiBU3dLvSptUA" target="_blank">
+            <a  href="https://open.spotify.com/album/6jjX8mGrsWtrpYpFhGMrg1?si=pfOVWg1ORiiBU3dLvSptUA" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={the_suns_tirade} alt="The Sun's Tirade by Isaiah Rashad" />
             </a>
         );

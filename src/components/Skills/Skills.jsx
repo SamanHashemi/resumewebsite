@@ -1,6 +1,6 @@
 import { Component } from "react";
 import React from 'react';
-import { Rating, Button, Icon } from 'semantic-ui-react';
+import { Rating} from 'semantic-ui-react';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 import "./Skills.css"
 

@@ -80,7 +80,7 @@ class App extends Component {
   elementsHaveLoaded(){
     var children = document.querySelectorAll("all_children")
     for(var i = 0; i < children; i++){
-      if(children[i] == null){
+      if(children[i] === null){
         return false;
       }
     }
@@ -95,10 +95,10 @@ class App extends Component {
 
   updateHeight(page){
     var contactPage = false
-    if(page == 'contact'){
+    if(page === 'contact'){
       contactPage = true
     }
-    const searchtxt = '#'+page+"_page"+" div"
+    const searchtxt = '#'+page+"_page div"
     var divs = document.querySelectorAll(searchtxt)
     
     const pageName = page+"_page"
@@ -119,7 +119,7 @@ class App extends Component {
       
       
 
-      if(el_bottom > max_elbtm && el_bottom != 0){
+      if(el_bottom > max_elbtm && el_bottom !== 0){
           max_elbtm = el_bottom
           element_pertrudes = true
           if(contactPage) {
@@ -157,6 +157,8 @@ class App extends Component {
       case 'contact':
         if(element_pertrudes){height*=1.05; }
         this.setState({contactHeight: height});
+        return 0;
+      default:
         return 0;
     }
   }

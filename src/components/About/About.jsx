@@ -2,12 +2,9 @@ import { Component } from "react";
 import React from 'react';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 import "./About.css";
-import ReactDOM from "react-dom";
 import beentxt from "./been-text.jsx";
 import amtxt from "./am-text.jsx";
 import goingtxt from "./going-text.jsx";
-
-import { Element } from 'react-scroll'
 
 
 class About extends Component{

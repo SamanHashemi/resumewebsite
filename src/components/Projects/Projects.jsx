@@ -28,10 +28,10 @@ class Projects extends Component{
       const crawly = (
         <div id="card" class="ui card">
           <div class="image">
-            <img id="crawly-img" src={crawlyimg}/>
+            <img id="crawly-img" src={crawlyimg} alt="Crawly the Crocodile"/>
           </div>
           <div class="content">
-            <a class="header">Crawly the Crocodile</a>
+            <div class="header">Crawly the Crocodile</div>
             <div class="meta">
               <span class="date">Started May of 2018</span>
             </div>
@@ -46,10 +46,10 @@ class Projects extends Component{
         const roomies = (
           <div class="ui card">
             <div class="image">
-              <img id="roomies-img" src={roomiesimg}/>
+              <img id="roomies-img" src={roomiesimg} alt="Roomies Webapp"/>
             </div>
             <div class="content">
-              <a class="header">Roomies</a>
+              <div class="header">Roomies</div>
               <div class="meta">
                 <span class="date">Started May of 2018</span>
               </div>
@@ -65,10 +65,10 @@ class Projects extends Component{
         const lucy = (
           <div class="ui card">
             <div class="image">
-              <img id="lucy-img" src={lucyimg}/>
+              <img id="lucy-img" src={lucyimg} alt="Lucy the at home robot"/>
             </div>
             <div class="content">
-              <a class="header">Lucy</a>
+              <div class="header">Lucy</div>
               <div class="meta">
                 <span class="date">Started May of 2018</span>
               </div>
