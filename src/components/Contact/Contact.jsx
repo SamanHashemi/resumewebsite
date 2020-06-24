@@ -5,9 +5,6 @@ import "./Contact.css";
 import axios from 'axios';
 import {Button, Modal} from "semantic-ui-react"
 import {isTablet} from "react-device-detect"
-import { CardText } from "react-bootstrap/Card";
-
-var classNames = require('classnames');
 
 class Contact extends Component{
   constructor (props) {
@@ -39,7 +36,7 @@ class Contact extends Component{
         else{
           axios({
               method: "POST", 
-              url:"http://localhost:3002/send", 
+              url:"https://saman-website.herokuapp.com/send", 
               data: {
                   name: name,   
                   email: email,  
