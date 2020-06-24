@@ -104,17 +104,17 @@ router.post('/send', (req, res, next) => {
   transporter.sendMail(mail, (err, data) => {
     if (err) {
       res.send({
-        status: 'fail'
+        status: err
       })
       res.json({
-        status: 'fail'
+        status: err
       })
     } else {
       res.send({
-        status: 'success'
+        status: data
        })
       res.json({
-       status: 'success'
+       status: data
       })
     }
   })
