@@ -3,7 +3,7 @@ import React from 'react'
 import {Icon} from "semantic-ui-react"
 import {isBrowser} from "react-device-detect"
 import "./Resume.css";
-import resume from "../../miscFiles/Resume.pdf"
+import resume from "../../miscFiles/SamanResume.pdf"
 
 
 

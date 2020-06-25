@@ -6,6 +6,6 @@ of my typical, class 10 to 4, followed by the infamous work from 4 til' very ver
 my schedule was now full of netflix, naps, and baking bread. However, it quickly became apparent that this
 lifestyle was not sustainable and if I were to keep this up, I would soon just be a blob 
 of yeast, flower, and The Office. So after about 2 weeks I started shifting my wake-up time,
-developing a routine, and within a few weeks I found myself working for 8+ hours a day on my two projects, 
-and I even got to rediscover my long lost hobby of playing music. Now I'm feeling motivated, productive, 
+developing a routine, and a few weeks later I found myself working for 8+ hours a day on my two projects, 
+and I was able rediscover my long lost hobby of playing music. Now I'm feeling motivated, productive, 
 and ready to take on any new challenge thrown my way.`

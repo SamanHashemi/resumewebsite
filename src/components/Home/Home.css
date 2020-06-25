@@ -29,6 +29,7 @@ html, body { height: 100%; width: 100%; overflow: hidden;}
     display: flex; 
     align-items: center; 
     justify-content: center;
+    color: white;
   }
   
   #home-background{
@@ -36,6 +37,18 @@ html, body { height: 100%; width: 100%; overflow: hidden;}
     background-size: cover;
   }
 
+  div::-webkit-scrollbar { display: none }
+
+#home-overlay{
+  position: absolute;
+  background-color: #f4f4f4;
+  opacity: 0.4;
+  background-size: cover;
+}
+
+#home-overlay::webkit-scrollbar{
+  display: none;
+}
   
   
 

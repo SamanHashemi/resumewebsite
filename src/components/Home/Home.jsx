@@ -17,14 +17,18 @@ class Home extends Component{
 
     render(){
         return(
-            <ParallaxLayer offset={0} speed={0.5} id="home-text" 
-                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <>
+            <ParallaxLayer offset={0} speed={0} factor={1} className="home-overlay" id="home-overlay">
                 
-                <div id="home"> 
-                    <div id="home">Saman Hashemipour</div> 
-                </div>
-
             </ParallaxLayer>
+                <ParallaxLayer offset={0} speed={0.5} id="home-text">
+                    
+                    <div id="home">Saman Hashemipour</div> 
+
+                </ParallaxLayer>
+
+            
+            </>
         )
     }
 }

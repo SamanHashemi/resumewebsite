@@ -1,7 +1,7 @@
 export default 
 `For the first 18 years of my life I lived in a small suburb in North County San Diego.
 I attened a typical public school feeder system from elementry to high school all
-within the same district, which helped me build lifelong bonds with many of my closest friends.
+within the same district. This helped me build lifelong bonds with many of my closest friends today.
 When high school ended I chose to attend a liberal arts school on the east coast for a semester just to
 find out how much I missed california and quickly came running back. From there I attended community
 college in San Diego for a year and a half and then transfered to UCLA where I finished my 
