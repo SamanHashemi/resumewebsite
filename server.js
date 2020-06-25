@@ -152,7 +152,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + "public/"))
+  res.sendFile(path.join(__dirname + "/public/"))
   console.log("Default get route")
 })
 
