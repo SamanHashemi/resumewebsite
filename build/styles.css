@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+}
+
+.container{
+  max-width: 100%;
+  margin: 0px;
+  background: blueviolet;
+  opacity: 100%;
+  font-size: 24px;
+  padding: 25px;
+  z-index: 9000;
+} 
+
+
+.titlename{
+  position: fixed;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  z-index: -1;
+}
+
+.titleIntro{
+  font-family: courier;
+  font-size: 100%;
+}
+
+.title{
+  font-family: courier;
+  font-size: 150%;
+}
+
+.name {
+  text-align: center;
+  height:1000px;
+  opacity: 0%;
+  background-color: transparent;
+  transform: translateX(0%) translateY(20%);
+}
+
+.info{
+  font-family: courier;
+  font-size:200%;
+  height:1000px;
+  opacity: 0%;
+  background-color: transparent;
+}
