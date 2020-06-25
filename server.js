@@ -142,6 +142,7 @@ const nodemailer = require("nodemailer");
 const creds = require("./config.js");
 const cors = require('cors');
 const path = require('path');
+const router = express.Router();
 app.use(cors())
 
 
@@ -150,16 +151,16 @@ app.use(bodyParser.urlencoded({
    extended: false
 }));
 
-app.get('/', (req, res) => {
-  res.render(express.static(path.resolve('./public/index.html')))
+router.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname + "/public/index.html"))
   console.log("Default get route")
 })
 
-app.post('/', (req, res) => {
+router.post('/', (req, res) => {
   console.log("Default post route")
 })
 
-app.post('/send', (req, res) => {
+router.post('/send', (req, res) => {
   // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
@@ -175,7 +176,7 @@ app.post('/send', (req, res) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '', // sender address
+        from: req.body.email, // sender address
         to: 'saman.alex.h@gmail.com', // list of receivers
         subject: req.body.name, // Subject line
         
@@ -204,7 +205,7 @@ app.post('/send', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
-
+app.use('/', router)
 
 app.use((request, response, next) => {
   response.header("Access-Control-Allow-Origin", "*");

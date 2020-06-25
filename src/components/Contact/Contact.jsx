@@ -72,7 +72,7 @@ class Contact extends Component{
         alert("One or more fields were left empty");
         return 0;
       }
-      axios.post('https://saman-website.herokuapp.com/send', {
+      axios.post('http://localhost:3001/send', {
        name: name,
        email: email,
        message: message
