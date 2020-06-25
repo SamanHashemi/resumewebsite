@@ -16,6 +16,9 @@ import Music from './components/Music/Music'
 import Contact from './components/Contact/Contact'
 import Home from "./components/Home/Home";
 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+
 class App extends Component {
 
   constructor() {
@@ -64,10 +67,14 @@ class App extends Component {
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.elementsHaveLoaded = this.elementsHaveLoaded.bind(this);
     this.scrollHeight = this.scrollHeight.bind(this);
+    this.connecToServer = this.connecToServer.bind(this);
     // this.interval = setInterval(() => {this.updateWindowDimensions()}, 100);
   }
 
+  connecToServer() {    fetch('/');  }
+
   componentDidMount() {
+    this.connecToServer();
     window.addEventListener('resize', this.updateWindowDimensions);
     setTimeout(() => {if(this.elementsHaveLoaded()){this.updateWindowDimensions()}}, 500);
     window.addEventListener('scroll', 

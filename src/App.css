@@ -16,8 +16,7 @@ div::-webkit-scrollbar { display: none }
 
 .home-overlay{
   background-color: #f4f4f4;
-  color: blue;
-  opacity: 40%;
+  opacity: 100%;
   background-size: cover;
 }
 
