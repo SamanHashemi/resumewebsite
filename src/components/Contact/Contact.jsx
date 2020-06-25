@@ -161,7 +161,7 @@ class Contact extends Component{
         );
 
         const instagramButton = (
-          <a  href="https://www.instagram.com/saman.hpour/?hl=en" target="_blank" rel="noopener noreferrer">
+          <a  href="https://www.instagram.com/samanshemi" target="_blank" rel="noopener noreferrer">
             <i id="media-btn" className={["large circular inverted purple instagram icon"]} href="https://www.instagram.com/saman.hpour/?hl=en" target="_blank"></i>
           </a>
         )
