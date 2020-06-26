@@ -77,15 +77,42 @@ html, body { height: 100%;}
 }
 
 #song1-title{
-  font-size: small;
+  font-family: 'EB Garamond', serif;
+  font-size: medium;
 }
 
 #song2-title{
-  font-size: small;
+  font-family: 'EB Garamond', serif;
+  font-size: medium;
 }
 
 #song3-title{
-  font-size: small;
+  font-family: 'EB Garamond', serif;
+  font-size: medium;
+}
+
+.art-container{
+  position: relative;
+  display: inline-block;
+}
+
+.album-container{
+  position: relative;
+  display: inline-block;
+}
+
+.song-title{
+  position: relative;
+  font-family: 'EB Garamond', serif;
+  text-align: left;
+  bottom: -8px;
+
+}
+
+.artist-name{
+  position: relative;
+  font-family: 'EB Garamond', serif;
+  text-align: right;
 }
 
 .box {

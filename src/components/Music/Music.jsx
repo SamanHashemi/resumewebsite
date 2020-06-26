@@ -59,7 +59,7 @@ class Music extends Component{
             <p id="song2-title"> Lakeside </p>
             <AudioPlayer
                 id="song1"
-                style={{backgroundColor: '#87dfd6', opacity: '60%', width: '100%'}}
+                style={{backgroundColor: '#12cad6', opacity: '100%', width: '100%'}}
                 autoPlay={false}
                 src={song_1}
                 customAdditionalControls={[]}
@@ -75,7 +75,7 @@ class Music extends Component{
             <p id="song3-title"> Stargaze </p>
             <AudioPlayer
                 id="song1"
-                style={{backgroundColor: '#fbfd8a', opacity: '60%', width: '100%'}}
+                style={{backgroundColor: '#efee9d', opacity: '100%', width: '100%'}}
                 autoPlay={false}
                 src={song_2}
                 customAdditionalControls={[]}
@@ -91,7 +91,7 @@ class Music extends Component{
             <p id="song1-title"> Fun Times at the Bird Hotel </p>
             <AudioPlayer
                 id="song1"
-                style={{backgroundColor: '#cff6cf', opacity: '60%', width: '100%'}}
+                style={{backgroundColor: '#cff6cf', opacity: '100%', width: '100%'}}
                 autoPlay={false}
                 src={song_3}
                 customAdditionalControls={[]}
@@ -103,46 +103,71 @@ class Music extends Component{
         );
 
         const malibu_cover = (
+            <div className="album-container">
+            <p className="song-title"> Malibu </p>
             <a  href="https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK?si=uVeLaqD7QBmtPRJaEf3c5g" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={malibu} alt="Malibu by Anderson .Paak" />
             </a>
+            <p className="artist-name"> by Anderson .Paak</p>
+            </div>
         );
 
         const madvillainy_cover = (
+            <div className="album-container">
+            <p className="song-title"> Madvillany </p>
             <a  href="https://open.spotify.com/album/01FCoGEQ3NFWF4fHJzdiax?si=RfbOkojaShW37Oc_37kqJw" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={madvillainy} alt="Madvillainy by Madvillan" />
             </a>
+            <p className="artist-name"> by Madvillan </p>
+            </div>
         );
 
         const aquemnini_cover = (
+            <div className="album-container">
+            <p className="song-title"> Aquemini </p>
             <a  href="https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28?si=KauGgtqpSU-NRDWTFn_3lQ" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={aquemini} alt="Aquemini by OutKast" />
             </a>
+            <p className="artist-name"> by Outkast</p>
+            </div>
         );
 
         const thesunstirade_cover = (
+            <div className="album-container">
+            <p className="song-title"> The Sun's Tirade </p>
             <a  href="https://open.spotify.com/album/6jjX8mGrsWtrpYpFhGMrg1?si=pfOVWg1ORiiBU3dLvSptUA" target="_blank" rel="noopener noreferrer">
                 <img className="malibu-cover" src={the_suns_tirade} alt="The Sun's Tirade by Isaiah Rashad" />
             </a>
+            <p className="artist-name"> by Isaiah Rashad</p>
+            </div> 
         );
 
 
         const micah = (
+            <div className="art-container">
             <a  href="https://twitter.com/micahulrich" target="_blank" rel="noopener noreferrer">
-                <img className="art-image" src={micahulrich} alt="Madvillainy by Madvillan" />
+                <img className="art-image" src={micahulrich} alt="Micah Ulrich" />
             </a>
+            <p className="artist-name"> by Micah Ulrich </p>
+            </div>
         )
 
         const laura = (
+            <div className="art-container">
             <a  href="https://www.instagram.com/lauracallaghanillustration/" target="_blank" rel="noopener noreferrer">
-                <img className="art-image" src={lauracallaghani} alt="The Sun's Tirade by Isaiah Rashad" />
+                <img className="art-image" src={lauracallaghani} alt="Laura Callaghan" />
             </a>
+            <p className="artist-name"> by Laura Callaghan </p>
+            </div>
         )
 
         const dec = (
+            <div className="art-container">
             <a  href="https://www.instagram.com/dec_art.it/" target="_blank" rel="noopener noreferrer">
-                <img className="art-image" src={dec_art} alt="Aquemini by OutKast" />
+                <img className="art-image" src={dec_art} alt="Dec Art" />
             </a>
+            <p className="artist-name"> by Dec Art Studio </p>
+            </div>
         )
 
         if(!this.props.musicDouble && !this.props.musicStack && !this.props.musicMineStack)
@@ -404,7 +429,7 @@ class Music extends Component{
                     </div>
 
                     <div class="row">
-                        <div class="ui three column center aligned grid">
+                        <div class="ui two column center aligned grid">
                             <div class="column">
                                 {malibu_cover}
                             </div>
@@ -416,7 +441,7 @@ class Music extends Component{
                     </div>
 
                     <div class="row">
-                        <div class="ui three column center aligned grid">
+                        <div class="ui two column center aligned grid">
 
                             <div class="column">
                                 {aquemnini_cover}

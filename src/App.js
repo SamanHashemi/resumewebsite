@@ -139,7 +139,7 @@ class App extends Component {
 
     switch(page){
       case 'about':
-        if(element_pertrudes){height*=1.05}
+        if(element_pertrudes){height*=1.08}
         this.setState({aboutHeight: height});
         return 0;
       case 'project':
