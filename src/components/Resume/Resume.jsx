@@ -49,7 +49,7 @@ class Resume extends Component{
         return(
             <>     
             <a href={resume} download>
-                    <div id="resume" class="resume" style={{top: this.state.top+"px"}}>
+                    <div id="resume" style={{top: this.state.top+"px"}}>
                         <span class="resume-download-text">Download my Resume</span>
                         <a href={resume} download>
                             <Icon className="resume-icon" name='wordpress forms' size="big"/>
