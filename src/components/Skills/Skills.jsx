@@ -66,7 +66,7 @@ class Skills extends Component{
 
               <div class="column">
                 <div className="rating-text">
-                  <p>Behaviorial Psycology</p>
+                  <p>Behaviorial Psychology</p>
                   <Rating icon="heart" defaultRating={5} maxRating={5} disabled className="rating-score"/> 
                 </div> 
               </div>
